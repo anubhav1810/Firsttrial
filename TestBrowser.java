@@ -37,7 +37,11 @@ public class TestBrowser {
 		editbox.click();
 		editbox.clear();
 		editbox.sendKeys("Infosys");
+	    System.out.println(editbox.getText());
+	    
+	    
 		editbox.submit();
+		
 		
 	/*	Actions a = new Actions(driver);
 		a.sendKeys(Keys.ENTER).perform();
