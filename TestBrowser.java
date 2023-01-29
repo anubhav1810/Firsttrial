@@ -45,11 +45,12 @@ public class TestBrowser {
 	     String[] neString = separate.split(",");
 	     System.out.println(separate);
 		  int sum = 0; String value;
-	     for(int i=0;i<=neString.length;i++)
+	     for(int i=0;i<neString.length;i++)
 	     {  value=neString[i];
 	         System.out.println("price of product:"+i+"and there value"+ value);
 	    	 sum= sum+Integer.parseInt(value);
 	    	 System.out.print(sum);
+	    	 value ="";
 	     }
 	     System.out.println("Sum"+sum);
 	     
